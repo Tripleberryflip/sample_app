@@ -1,0 +1,15 @@
+....................................................................................F.................
+
+Failures:
+
+  1) User pages signup with valid information after saving the user 
+     Failure/Error: it { should have_link('Sign out') }
+       expected link "Sign out" to return something
+     # ./spec/requests/user_pages_spec.rb:57:in `block (5 levels) in <top (required)>'
+
+Finished in 24.84 seconds
+102 examples, 1 failure
+
+Failed examples:
+
+rspec ./spec/requests/user_pages_spec.rb:57 # User pages signup with valid information after saving the user 
